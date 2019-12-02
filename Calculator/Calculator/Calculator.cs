@@ -68,7 +68,7 @@ namespace Calculator
             }
         }
 
-        private void Numplus_Click(object sender, EventArgs e)
+        private void Numplus_Click(object sender, EventArgs e) // 이벤트 핸들러를 공유하도록 코딩.
         {
             if(isNewNum==false)
             {
